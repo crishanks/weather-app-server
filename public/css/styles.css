@@ -14,14 +14,14 @@ body {
   flex-grow: 1;
 }
 
-footer {
+.footer {
   color: #888888;
   border-top: 1px solid #eeeeee;
   margin-top: 16px;
   padding: 16px 0;
 }
 
-header {
+div {
   margin-top: 16px;
   margin-bottom: 48px;
 }
@@ -31,7 +31,7 @@ h1 {
   margin-bottom: 16px;
 }
 
-header a {
+div a {
   color: #888888;
   margin-right: 16px;
   text-decoration: none;
@@ -39,4 +39,17 @@ header a {
 
 .portrait {
   width: 250px;
+}
+
+input {
+  border: 1px solid #cccccc;
+  padding: 8px;
+}
+
+button {
+  cursor: pointer;
+  border: 1px solid #888888;
+  background: #888888;
+  color: white;
+  padding: 8px
 }
